@@ -1,6 +1,6 @@
 import tensorflow as tf
 #import cv2
-
+uu = 0
 state = tf.Variable(0, name="counter")
 
 one = tf.constant(1)
@@ -19,3 +19,5 @@ with tf.Session() as sess:
             print(a)
 
 
+print('BBNNBB')
+print('xxx')
